@@ -1,13 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Contact from '../components/Contact.astro';
 ---
 
 <Layout title="Welcome to My Site">
 	<Header />
-	<main class="container">
-		<h1>HELLO! I'm <span class="text-green-600 font-bold">Dena</span></h1>
-		<p>Nice to meet you friends!</p>
+	<main class="container px-5">
+		<Hero />
+		<About />
+		<Contact />
 	</main>
 </Layout>
 
